@@ -11,7 +11,7 @@
 	<Item Name="reserver info" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="get reserver by name.vi" Type="VI" URL="../get reserver by name.vi"/>
-		<Item Name="get reserver.vi" Type="VI" URL="../../../FPGA-Addon/Source/System Explorer/get reserver.vi"/>
+		<Item Name="get reserver.vi" Type="VI" URL="../get reserver.vi"/>
 		<Item Name="reserve resource on FPGA.vi" Type="VI" URL="../reserve resource on FPGA.vi"/>
 		<Item Name="unreserve resource on FPGA.vi" Type="VI" URL="../unreserve resource on FPGA.vi"/>
 		<Item Name="set reserver.vi" Type="VI" URL="../set reserver.vi"/>
@@ -21,7 +21,7 @@
 		<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../get FPGA resource reservation info.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Channel Type.ctl" Type="VI" URL="../../../FPGA-Addon/Source/System Explorer/SubVIs/Channel Type.ctl"/>
+		<Item Name="Channel Type.ctl" Type="VI" URL="../Channel Type.ctl"/>
 		<Item Name="fpga resource.ctl" Type="VI" URL="../fpga resource.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
