@@ -5,27 +5,27 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="API" Type="Folder">
-		<Item Name="reserve resource from client.vi" Type="VI" URL="../reserve resource from client.vi"/>
-		<Item Name="unreserve resource from client.vi" Type="VI" URL="../unreserve resource from client.vi"/>
+		<Item Name="reserve resource from client.vi" Type="VI" URL="../../reserve resource from client.vi"/>
+		<Item Name="unreserve resource from client.vi" Type="VI" URL="../../unreserve resource from client.vi"/>
 	</Item>
 	<Item Name="reserver info" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="get reserver by name.vi" Type="VI" URL="../get reserver by name.vi"/>
-		<Item Name="get reserver.vi" Type="VI" URL="../get reserver.vi"/>
-		<Item Name="reserve resource on FPGA.vi" Type="VI" URL="../reserve resource on FPGA.vi"/>
-		<Item Name="unreserve resource on FPGA.vi" Type="VI" URL="../unreserve resource on FPGA.vi"/>
-		<Item Name="set reserver.vi" Type="VI" URL="../set reserver.vi"/>
+		<Item Name="get reserver by name.vi" Type="VI" URL="../../get reserver by name.vi"/>
+		<Item Name="get reserver.vi" Type="VI" URL="../../get reserver.vi"/>
+		<Item Name="reserve resource on FPGA.vi" Type="VI" URL="../../reserve resource on FPGA.vi"/>
+		<Item Name="unreserve resource on FPGA.vi" Type="VI" URL="../../unreserve resource on FPGA.vi"/>
+		<Item Name="set reserver.vi" Type="VI" URL="../../set reserver.vi"/>
 	</Item>
 	<Item Name="resource" Type="Folder">
-		<Item Name="get fgpa resources.vi" Type="VI" URL="../get fgpa resources.vi"/>
-		<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../get FPGA resource reservation info.vi"/>
+		<Item Name="get fgpa resources.vi" Type="VI" URL="../../get fgpa resources.vi"/>
+		<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../../get FPGA resource reservation info.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Channel Type.ctl" Type="VI" URL="../Channel Type.ctl"/>
-		<Item Name="fpga resource.ctl" Type="VI" URL="../fpga resource.ctl"/>
+		<Item Name="Channel Type.ctl" Type="VI" URL="../../Channel Type.ctl"/>
+		<Item Name="fpga resource.ctl" Type="VI" URL="../../fpga resource.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
-		<Item Name="find Relative VS Ref.vi" Type="VI" URL="../find Relative VS Ref.vi"/>
-		<Item Name="search for item.vi" Type="VI" URL="../search for item.vi"/>
+		<Item Name="find Relative VS Ref.vi" Type="VI" URL="../../find Relative VS Ref.vi"/>
+		<Item Name="search for item.vi" Type="VI" URL="../../search for item.vi"/>
 	</Item>
 </Library>
