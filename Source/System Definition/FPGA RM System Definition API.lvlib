@@ -46,17 +46,14 @@
 				<Item Name="get fpga resources compatible with FPGA Addon CD group.vi" Type="VI" URL="../../../../Source/Shared/get fpga resources compatible with FPGA Addon CD group.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Type Conversions" Type="Folder">
-			<Item Name="RegMap to Register Information.vi" Type="VI" URL="../../../../Source/System Explorer/SubVIs/RegMap to Register Information.vi"/>
-		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Type.ctl" Type="VI" URL="../../Channel Type.ctl"/>
+			<Item Name="Data Type.ctl" Type="VI" URL="../../../../Source/Shared/Data Type.ctl"/>
 			<Item Name="DMA Reservation.ctl" Type="VI" URL="../../../../Source/System Explorer/SubVIs/DMA Reservation.ctl"/>
 			<Item Name="fpga resource.ctl" Type="VI" URL="../../fpga resource.ctl"/>
 			<Item Name="reservation info.ctl" Type="VI" URL="../../../../Source/System Explorer/SubVIs/reservation info.ctl"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
-			<Item Name="find Relative VS Ref.vi" Type="VI" URL="../../find Relative VS Ref.vi"/>
 			<Item Name="is reference null.vi" Type="VI" URL="../../../../Source/System Explorer/Resource Manager/is reference null.vi"/>
 			<Item Name="variant to datatype string.vi" Type="VI" URL="../../../../Source/System Explorer/SubVIs/variant to datatype string.vi"/>
 		</Item>

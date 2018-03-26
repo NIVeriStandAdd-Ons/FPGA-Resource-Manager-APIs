@@ -10,6 +10,7 @@
 		<Item Name="Channel group.lvclass" Type="LVClass" URL="../Channel Group/Channel group.lvclass"/>
 		<Item Name="Datatype group.lvclass" Type="LVClass" URL="../Datatype Group/Datatype group.lvclass"/>
 	</Item>
+	<Item Name="FG Action.ctl" Type="VI" URL="../../../../Source/Shared/FG Action.ctl"/>
 	<Item Name="get FPGA Resource Info.vi" Type="VI" URL="../get FPGA Resource Info.vi"/>
 	<Item Name="set FPGA Resource Info.vi" Type="VI" URL="../set FPGA Resource Info.vi"/>
 </Library>
