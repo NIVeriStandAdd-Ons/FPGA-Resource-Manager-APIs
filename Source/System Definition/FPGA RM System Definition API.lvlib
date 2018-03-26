@@ -5,7 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="API" Type="Folder">
+		<Item Name="add fpga mapping group.vi" Type="VI" URL="../add fpga mapping group.vi"/>
+		<Item Name="add resource page.vi" Type="VI" URL="../add resource page.vi"/>
+		<Item Name="FPGA resource mapping.ctl" Type="VI" URL="../../../../Source/System Explorer/SubVIs/FPGA resource mapping.ctl"/>
+		<Item Name="get all FPGA CD references.vi" Type="VI" URL="../../../../Source/System Explorer/Resource Manager/get all FPGA CD references.vi"/>
+		<Item Name="get items reserved by this node.vi" Type="VI" URL="../get items reserved by this node.vi"/>
 		<Item Name="reserve resource from client.vi" Type="VI" URL="../../reserve resource from client.vi"/>
+		<Item Name="set reservation info.vi" Type="VI" URL="../set reservation info.vi"/>
+		<Item Name="Unreserve All.vi" Type="VI" URL="../Unreserve All.vi"/>
 		<Item Name="unreserve resource from client.vi" Type="VI" URL="../../unreserve resource from client.vi"/>
 	</Item>
 	<Item Name="reserver info" Type="Folder">
@@ -17,6 +24,7 @@
 		<Item Name="set reserver.vi" Type="VI" URL="../../set reserver.vi"/>
 	</Item>
 	<Item Name="resource" Type="Folder">
+		<Item Name="get all FPGA CD resources.vi" Type="VI" URL="../get all FPGA CD resources.vi"/>
 		<Item Name="get fgpa resources.vi" Type="VI" URL="../../get fgpa resources.vi"/>
 		<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../../get FPGA resource reservation info.vi"/>
 	</Item>
