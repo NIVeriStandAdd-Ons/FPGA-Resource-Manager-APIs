@@ -8,6 +8,7 @@
 
 </Property>
 	<Item Name="API" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Client-Specific" Type="Folder">
 			<Item Name="add pages" Type="Folder">
 				<Item Name="add fpga mappings group page.vi" Type="VI" URL="../API/Client-Specific/add pages/add fpga mappings group page.vi"/>
@@ -15,6 +16,17 @@
 			</Item>
 			<Item Name="Reservation Requests" Type="Folder">
 				<Item Name="set reservation request info.vi" Type="VI" URL="../API/Client-Specific/Reservation Requests/set reservation request info.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Server-Specific" Type="Folder">
+			<Item Name="ActionVIOnCompile" Type="Folder">
+				<Item Name="assign FPGA resources from Server to Client.vi" Type="VI" URL="../API/Server-Specific/ActionVIOnCompile/assign FPGA resources from Server to Client.vi"/>
+			</Item>
+			<Item Name="Initialize" Type="Folder">
+				<Item Name="initialize FPGA Addon as FPGA Resource Manager.vi" Type="VI" URL="../API/Server-Specific/Initialize/initialize FPGA Addon as FPGA Resource Manager.vi"/>
+			</Item>
+			<Item Name="Resource Groups" Type="Folder">
+				<Item Name="get fpga resources compatible with FPGA Addon CD group.vi" Type="VI" URL="../API/Server-Specific/Resource Groups/get fpga resources compatible with FPGA Addon CD group.vi"/>
 			</Item>
 		</Item>
 		<Item Name="FPGA Resource Discovery" Type="Folder">
@@ -28,25 +40,14 @@
 			<Item Name="Force Unreserve Resource.vi" Type="VI" URL="../API/Reservations/Force Unreserve Resource.vi"/>
 			<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../API/Reservations/get FPGA resource reservation info.vi"/>
 			<Item Name="get FPGA resources reserved by this node.vi" Type="VI" URL="../API/Reservations/get FPGA resources reserved by this node.vi"/>
-			<Item Name="get reservation request info.vi" Type="VI" URL="../API/Reservations/get reservation request info.vi"/>
 			<Item Name="get reserving node by name.vi" Type="VI" URL="../API/Reservations/get reserving node by name.vi"/>
 			<Item Name="get reserving node.vi" Type="VI" URL="../API/Reservations/get reserving node.vi"/>
 			<Item Name="Reserve FPGA Resource.vi" Type="VI" URL="../API/Reservations/Reserve FPGA Resource.vi"/>
+			<Item Name="get reservation request info.vi" Type="VI" URL="../API/Reservations/get reservation request info.vi"/>
 			<Item Name="set reserving node as null.vi" Type="VI" URL="../API/Reservations/set reserving node as null.vi"/>
 			<Item Name="set reserving node.vi" Type="VI" URL="../API/Reservations/set reserving node.vi"/>
 			<Item Name="unreserve all resources reserved by this node.vi" Type="VI" URL="../API/Reservations/unreserve all resources reserved by this node.vi"/>
 			<Item Name="Unreserve Resource.vi" Type="VI" URL="../API/Reservations/Unreserve Resource.vi"/>
-		</Item>
-		<Item Name="Server-Specific" Type="Folder">
-			<Item Name="ActionVIOnCompile" Type="Folder">
-				<Item Name="assign FPGA resources from Server to Client.vi" Type="VI" URL="../API/Server-Specific/ActionVIOnCompile/assign FPGA resources from Server to Client.vi"/>
-			</Item>
-			<Item Name="Initialize" Type="Folder">
-				<Item Name="initialize FPGA Addon as FPGA Resource Manager.vi" Type="VI" URL="../API/Server-Specific/Initialize/initialize FPGA Addon as FPGA Resource Manager.vi"/>
-			</Item>
-			<Item Name="Resource Groups" Type="Folder">
-				<Item Name="get fpga resources compatible with FPGA Addon CD group.vi" Type="VI" URL="../API/Server-Specific/Resource Groups/get fpga resources compatible with FPGA Addon CD group.vi"/>
-			</Item>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Type.ctl" Type="VI" URL="../API/Types/Channel Type.ctl"/>
