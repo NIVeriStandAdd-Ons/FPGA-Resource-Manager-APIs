@@ -49,12 +49,7 @@
 			<Item Name="unreserve all resources reserved by this node.vi" Type="VI" URL="../API/Reservations/unreserve all resources reserved by this node.vi"/>
 			<Item Name="Unreserve Resource.vi" Type="VI" URL="../API/Reservations/Unreserve Resource.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder">
-			<Item Name="Channel Type.ctl" Type="VI" URL="../API/Types/Channel Type.ctl"/>
-			<Item Name="DMA Reservation.ctl" Type="VI" URL="../API/Types/DMA Reservation.ctl"/>
-			<Item Name="fpga resource.ctl" Type="VI" URL="../API/Types/fpga resource.ctl"/>
-			<Item Name="reservation info.ctl" Type="VI" URL="../API/Types/reservation info.ctl"/>
-		</Item>
+		<Item Name="Types" Type="Folder"/>
 	</Item>
 	<Item Name="RM Page SubVIs" Type="Folder">
 		<Item Name="Map to Single Resource SubVIs" Type="Folder">

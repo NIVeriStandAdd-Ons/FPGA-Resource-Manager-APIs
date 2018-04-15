@@ -10,13 +10,18 @@
 		<Item Name="Channel group.lvclass" Type="LVClass" URL="../FPGA Configuration Classes/Channel Group/Channel group.lvclass"/>
 		<Item Name="Datatype group.lvclass" Type="LVClass" URL="../FPGA Configuration Classes/Datatype Group/Datatype group.lvclass"/>
 	</Item>
-	<Item Name="Data Type.ctl" Type="VI" URL="../Data Type.ctl"/>
-	<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
+	<Item Name="Type Defs" Type="Folder">
+		<Item Name="Channel Type.ctl" Type="VI" URL="../../System Definition/API/Types/Channel Type.ctl"/>
+		<Item Name="Data Type.ctl" Type="VI" URL="../Data Type.ctl"/>
+		<Item Name="DMA Reservation.ctl" Type="VI" URL="../../System Definition/API/Types/DMA Reservation.ctl"/>
+		<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
+		<Item Name="fpga resource.ctl" Type="VI" URL="../../System Definition/API/Types/fpga resource.ctl"/>
+		<Item Name="FPGA Settings.ctl" Type="VI" URL="../FPGA Settings.ctl"/>
+		<Item Name="reservation info.ctl" Type="VI" URL="../../System Definition/API/Types/reservation info.ctl"/>
+	</Item>
 	<Item Name="find Relative VS Ref.vi" Type="VI" URL="../find Relative VS Ref.vi"/>
-	<Item Name="FPGA Settings.ctl" Type="VI" URL="../FPGA Settings.ctl"/>
 	<Item Name="FPGA Settings.vi" Type="VI" URL="../FPGA Settings.vi"/>
 	<Item Name="get FPGA Resource Info.vi" Type="VI" URL="../get FPGA Resource Info.vi"/>
-	<Item Name="is reference null.vi" Type="VI" URL="../is reference null.vi"/>
 	<Item Name="set FPGA Resource Info.vi" Type="VI" URL="../set FPGA Resource Info.vi"/>
 	<Item Name="variant to datatype string.vi" Type="VI" URL="../variant to datatype string.vi"/>
 </Library>
