@@ -15,7 +15,7 @@
 				<Item Name="add single resource page.vi" Type="VI" URL="../API/Client-Specific/add pages/add single resource page.vi"/>
 			</Item>
 			<Item Name="Reservation Requests" Type="Folder">
-				<Item Name="set reservation request info.vi" Type="VI" URL="../API/Client-Specific/Reservation Requests/set reservation request info.vi"/>
+				<Item Name="set Requested Resources property.vi" Type="VI" URL="../API/Client-Specific/Reservation Requests/set Requested Resources property.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Server-Specific" Type="Folder">

@@ -17,6 +17,8 @@
 		<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
 		<Item Name="fpga resource.ctl" Type="VI" URL="../../System Definition/API/Types/fpga resource.ctl"/>
 		<Item Name="FPGA Settings.ctl" Type="VI" URL="../FPGA Settings.ctl"/>
+		<Item Name="Requested Resource.ctl" Type="VI" URL="../Requested Resource.ctl"/>
+		<Item Name="Requested Resources.ctl" Type="VI" URL="../FPGA Configuration Classes/Datatype Group/Requested Resources.ctl"/>
 		<Item Name="reservation info.ctl" Type="VI" URL="../../System Definition/API/Types/reservation info.ctl"/>
 	</Item>
 	<Item Name="find Relative VS Ref.vi" Type="VI" URL="../find Relative VS Ref.vi"/>
