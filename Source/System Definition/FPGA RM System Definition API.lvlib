@@ -40,16 +40,18 @@
 			<Item Name="Force Unreserve Resource.vi" Type="VI" URL="../API/Reservations/Force Unreserve Resource.vi"/>
 			<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../API/Reservations/get FPGA resource reservation info.vi"/>
 			<Item Name="get FPGA resources reserved by this node.vi" Type="VI" URL="../API/Reservations/get FPGA resources reserved by this node.vi"/>
+			<Item Name="get Requested Resources property.vi" Type="VI" URL="../API/Reservations/get Requested Resources property.vi"/>
 			<Item Name="get reserving node by name.vi" Type="VI" URL="../API/Reservations/get reserving node by name.vi"/>
 			<Item Name="get reserving node.vi" Type="VI" URL="../API/Reservations/get reserving node.vi"/>
 			<Item Name="Reserve FPGA Resource.vi" Type="VI" URL="../API/Reservations/Reserve FPGA Resource.vi"/>
-			<Item Name="get reservation request info.vi" Type="VI" URL="../API/Reservations/get reservation request info.vi"/>
 			<Item Name="set reserving node as null.vi" Type="VI" URL="../API/Reservations/set reserving node as null.vi"/>
 			<Item Name="set reserving node.vi" Type="VI" URL="../API/Reservations/set reserving node.vi"/>
 			<Item Name="unreserve all resources reserved by this node.vi" Type="VI" URL="../API/Reservations/unreserve all resources reserved by this node.vi"/>
 			<Item Name="Unreserve Resource.vi" Type="VI" URL="../API/Reservations/Unreserve Resource.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="resources.ctl" Type="VI" URL="../API/Types/resources.ctl"/>
+		</Item>
 	</Item>
 	<Item Name="RM Page SubVIs" Type="Folder">
 		<Item Name="Map to Single Resource SubVIs" Type="Folder">
