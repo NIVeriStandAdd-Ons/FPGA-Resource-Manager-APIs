@@ -48,6 +48,11 @@
 			<Item Name="set reserving node.vi" Type="VI" URL="../API/Reservations/set reserving node.vi"/>
 			<Item Name="unreserve all resources reserved by this node.vi" Type="VI" URL="../API/Reservations/unreserve all resources reserved by this node.vi"/>
 			<Item Name="Unreserve Resource.vi" Type="VI" URL="../API/Reservations/Unreserve Resource.vi"/>
+			<Item Name="Get Interface Names from Resource Array.vi" Type="VI" URL="../API/Reservations/Get Interface Names from Resource Array.vi"/>
+			<Item Name="Get Reservable Resources.vi" Type="VI" URL="../API/Reservations/Get Reservable Resources.vi"/>
+			<Item Name="Interface Filter.vi" Type="VI" URL="../API/Reservations/Interface Filter.vi"/>
+			<Item Name="Get Compatible Interfaces.vi" Type="VI" URL="../API/Reservations/Get Compatible Interfaces.vi"/>
+			<Item Name="Filter resources by name.vi" Type="VI" URL="../API/Reservations/Filter resources by name.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="resources.ctl" Type="VI" URL="../API/Types/resources.ctl"/>
