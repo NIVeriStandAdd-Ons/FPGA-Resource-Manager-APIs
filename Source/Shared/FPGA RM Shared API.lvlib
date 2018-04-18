@@ -11,15 +11,24 @@
 		<Item Name="Datatype group.lvclass" Type="LVClass" URL="../FPGA Configuration Classes/Datatype Group/Datatype group.lvclass"/>
 	</Item>
 	<Item Name="Type Defs" Type="Folder">
-		<Item Name="Channel Type.ctl" Type="VI" URL="../../System Definition/API/Types/Channel Type.ctl"/>
-		<Item Name="Data Type.ctl" Type="VI" URL="../Data Type.ctl"/>
-		<Item Name="DMA Reservation.ctl" Type="VI" URL="../../System Definition/API/Types/DMA Reservation.ctl"/>
-		<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
-		<Item Name="fpga resource.ctl" Type="VI" URL="../../System Definition/API/Types/fpga resource.ctl"/>
-		<Item Name="FPGA Settings.ctl" Type="VI" URL="../FPGA Settings.ctl"/>
-		<Item Name="Requested Resource.ctl" Type="VI" URL="../Requested Resource.ctl"/>
+		<Item Name="Channel Type.ctl" Type="VI" URL="../Types/Channel Type.ctl"/>
+		<Item Name="Compiled.DMASettings.ctl" Type="VI" URL="../Types/Compiled.DMASettings.ctl"/>
+		<Item Name="Compiled.RegisterSettings.ctl" Type="VI" URL="../Types/Compiled.RegisterSettings.ctl"/>
+		<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Types/Compiled.Settings.ctl"/>
+		<Item Name="Data Type.ctl" Type="VI" URL="../Types/Data Type.ctl"/>
+		<Item Name="Delacing Scheme.ctl" Type="VI" URL="../Types/Delacing Scheme.ctl"/>
+		<Item Name="DMA Acquisition Mode.ctl" Type="VI" URL="../Types/DMA Acquisition Mode.ctl"/>
+		<Item Name="DMA Reservation.ctl" Type="VI" URL="../Types/DMA Reservation.ctl"/>
+		<Item Name="DMA Settings.ctl" Type="VI" URL="../Types/DMA Settings.ctl"/>
+		<Item Name="FG Action.ctl" Type="VI" URL="../Types/FG Action.ctl"/>
+		<Item Name="fpga resource.ctl" Type="VI" URL="../Types/fpga resource.ctl"/>
+		<Item Name="FPGA Settings.ctl" Type="VI" URL="../Types/FPGA Settings.ctl"/>
+		<Item Name="Register Information.ctl" Type="VI" URL="../Types/Register Information.ctl"/>
+		<Item Name="Requested Resource.ctl" Type="VI" URL="../Types/Requested Resource.ctl"/>
 		<Item Name="Requested Resources.ctl" Type="VI" URL="../FPGA Configuration Classes/Datatype Group/Requested Resources.ctl"/>
-		<Item Name="reservation info.ctl" Type="VI" URL="../../System Definition/API/Types/reservation info.ctl"/>
+		<Item Name="reservation info.ctl" Type="VI" URL="../Types/reservation info.ctl"/>
+		<Item Name="Scalar Settings.ctl" Type="VI" URL="../Types/Scalar Settings.ctl"/>
+		<Item Name="Scalar Type.ctl" Type="VI" URL="../Types/Scalar Type.ctl"/>
 	</Item>
 	<Item Name="find Relative VS Ref.vi" Type="VI" URL="../find Relative VS Ref.vi"/>
 	<Item Name="FPGA Settings.vi" Type="VI" URL="../FPGA Settings.vi"/>
